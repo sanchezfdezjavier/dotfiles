@@ -180,6 +180,4 @@ eval $(thefuck --alias)
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /opt/homebrew/bin/terraform terraform
-export PATH="/opt/homebrew/opt/node@18/bin:$PATH"
-export PATH="/opt/homebrew/opt/node@16/bin:$PATH"
 export PATH="$PATH:~/my_scripts"

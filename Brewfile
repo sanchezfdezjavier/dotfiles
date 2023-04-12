@@ -13,8 +13,6 @@ brew "bat"
 brew "glib"
 # Manage compile and link flags for libraries
 brew "pkg-config"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
 # Vector graphics library with cross-device output support
 brew "cairo"
 # GNU Ubiquitous Intelligent Language for Extensions
@@ -25,8 +23,6 @@ brew "p11-kit"
 brew "unbound"
 # GNU Transport Layer Security (TLS) Library
 brew "gnutls"
-# GNU Emacs text editor
-brew "emacs"
 # Emacs dependency management
 brew "cask"
 # Modern replacement for 'ls'
@@ -37,12 +33,8 @@ brew "gdk-pixbuf"
 brew "giflib"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.10"
-# Generate introspection data for GObject libraries
-brew "gobject-introspection"
 # OpenType text shaping engine
 brew "harfbuzz"
-# Kubernetes package manager
-brew "helm"
 # Improved top (interactive process viewer)
 brew "htop"
 # CLI wrapper for basic network utilities on macOS - ip command
@@ -69,14 +61,8 @@ brew "lsd"
 brew "nmap"
 # Platform built on V8 to build network applications
 brew "node"
-# Platform built on V8 to build network applications
-brew "node@16"
-# Platform built on V8 to build network applications
-brew "node@18"
 # OpenBSD freely-licensed SSH connectivity tools
 brew "openssh"
-# Object-relational database system
-brew "postgresql@14"
 # Show ps output as a tree
 brew "pstree"
 # Python version management
@@ -94,7 +80,7 @@ brew "thefuck"
 # Terminal multiplexer
 brew "tmux"
 # Generic Python virtualenv management and test command-line tool
-brew "tox", link: false
+brew "tox", link: true
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Sends magic packets to wake up network-devices
@@ -105,21 +91,7 @@ brew "watch"
 brew "wget"
 # JavaScript package manager
 brew "yarn"
-# Download YouTube videos from the command-line
-brew "youtube-dl"
 # UNIX shell (command interpreter)
 brew "zsh"
-# Terraform
-brew "hashicorp/tap/terraform"
-# Small, fast, single-package Kubernetes for developers, IoT and edge
-brew "ubuntu/microk8s/microk8s"
-# The official CLI for Amazon EKS
-brew "weaveworks/tap/eksctl"
-# Orchestrates virtual Ubuntu instances
-cask "multipass"
 # App to write, plan, collaborate, and get organized
 cask "notion"
-# Team communication and collaboration software
-cask "slack"
-# Development environment
-cask "vagrant"
